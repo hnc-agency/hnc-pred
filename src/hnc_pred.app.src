@@ -1,0 +1,13 @@
+{
+	application,
+	'hnc_pred',
+	[
+		{description, "A handy collection of predicate tools"},
+		{vsn, "0.0.1"},
+		{modules, ['hnc_pred']},
+		{applications, [kernel, stdlib]},
+		{licenses, [<<"ISC">>]},
+		{build_tools, [<<"make">>, <<"rebar3">>]},
+		{links, #{<<"GitHub">> => <<"https://github.com/hnc-agency/hnc-pred">>}}
+	]
+}.
